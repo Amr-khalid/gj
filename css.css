@@ -1,0 +1,35 @@
+.d{background: linear-gradient(299deg,pink,rgb(109, 9, 151)); width: 80px; height: 80px;float: left;margin: 5px; font-size: 60px;animation: a 4s infinite linear;}
+.c{width: 355px; text-align: center;}
+#title{background: linear-gradient(299deg,pink,rgb(109, 9, 151)); width: 75%; height: 80px; text-align: center; color: aliceblue; margin: 5px 0; padding: 5px 0; font-size: 40px; }
+span{color: rgb(112, 18, 167);}
+span::first-letter{color: black;}
+body{background: linear-gradient(299deg,rgb(0, 0, 0),rgb(109, 9, 151)); }
+.d:hover{background: linear-gradient(299deg,rgb(171, 11, 142),rgb(109, 9, 151));cursor:pointer ;}
+/*@keyframes a{
+0%{background: linear-gradient(299deg,rgb(116, 35, 170),rgb(109, 9, 151))}
+10%{background: linear-gradient(209deg,rgb(180, 19, 46),rgb(109, 9, 151))}
+20%{background: linear-gradient(190deg,rgb(92, 14, 27),rgb(109, 9, 151))}
+40%{background: linear-gradient(109deg,rgb(38, 15, 208),rgb(109, 9, 151))}
+80%{background: linear-gradient(99deg,rgb(3, 170, 142),rgb(109, 9, 151))}
+100%{background: linear-gradient(9deg,rgb(117, 2, 119),rgb(109, 9, 151))}
+}
+*/
+#t{background: var(--background); padding: 25px 0; width:94%; color: white; font-size: 40px;}
+:root{--width: 100px; --height:100px ;--background: linear-gradient(299deg,pink,rgb(109, 9, 151)) }
+.r{width: 355px; text-align: center;}
+.g{width: var(--width);height: var(--height); background: var(--background); float: left; margin: 5px;color: aliceblue ; font-size: 80px;}
+.g:hover{background: linear-gradient(299deg,rgb(171, 11, 142),rgb(109, 9, 151));cursor:pointer ;}
+.v1{display: flex; flex-direction: column;}
+.v{width: 149px;height: 20px;}
+ul{margin: 0; padding: 0; backdrop-filter: blur(40px); background-image: linear-gradient(48deg,rgb(125, 10, 77),rgba(17, 6, 6, 0.938));border-radius: 9px; }
+li{list-style: none;color: aliceblue; font-size: 30px; text-transform: uppercase; padding: 3px; margin: 5px;}
+
+li:hover{background-color: rgba(240, 248, 255, 0.414); cursor: pointer;}
+.c1{display: none;transition: 2s;}
+.gg img{width: var(--width); height: var(--height); padding: 10px;}
+.mm img{width: 480px; height: 480px;}
+.gg img:hover{cursor: pointer; border: 2px black solid;}
+
+body{height: 3000px;}
+#bt{backdrop-filter: blur(19px); color: aliceblue; background-color: rgba(240, 248, 255, 0.158); width: 40px; position: fixed; bottom: 10px; right: 10px;}
+/*xo-after-befor-append change.src scroll
